@@ -28,7 +28,7 @@ if __name__ == "__main__":
     print(f"Reading valid file:\n{secure_archive(filename)}")
     print("Writing valid content:")
     print(
-        f"{secure_archive(write_filename, action='w', content="Hi")}\n______\n"
+        f"{secure_archive(write_filename, action='w', content='Hi')}\n______\n"
           )
     print("Testing invalid inputs:\n______\n")
     print(f"Reading non existent file:\n{secure_archive(invalid)}")
